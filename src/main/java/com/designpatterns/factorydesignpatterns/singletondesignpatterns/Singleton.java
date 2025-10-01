@@ -1,4 +1,4 @@
-package com.singletondesignpatterns;
+package com.designpatterns.factorydesignpatterns.singletondesignpatterns;
 
 public class Singleton {
 

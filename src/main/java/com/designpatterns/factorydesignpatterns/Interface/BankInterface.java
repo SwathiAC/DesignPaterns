@@ -1,4 +1,4 @@
-package com.example.factorydesignpatterns.Interface;
+package com.designpatterns.factorydesignpatterns.Interface;
 
 public interface BankInterface {
 

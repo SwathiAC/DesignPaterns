@@ -1,12 +1,12 @@
-package com.example.factorydesignpatterns.account;
+package com.designpatterns.factorydesignpatterns.account;
 
-import com.example.factorydesignpatterns.Interface.BankInterface;
+import com.designpatterns.factorydesignpatterns.Interface.BankInterface;
 
-public class CheckingAccount implements BankInterface {
+public class BusinessAccount implements BankInterface {
 
     private double balance;
 
-    public CheckingAccount() {
+    public BusinessAccount() {
         this.balance = 0.0;
     }
 

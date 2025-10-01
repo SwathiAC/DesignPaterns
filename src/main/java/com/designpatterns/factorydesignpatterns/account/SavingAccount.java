@@ -1,12 +1,12 @@
-package com.example.factorydesignpatterns.account;
+package com.designpatterns.factorydesignpatterns.account;
 
-import com.example.factorydesignpatterns.Interface.BankInterface;
+import com.designpatterns.factorydesignpatterns.Interface.BankInterface;
 
-public class BusinessAccount implements BankInterface {
+public class SavingAccount implements BankInterface {
 
     private double balance;
 
-    public BusinessAccount() {
+    public SavingAccount() {
         this.balance = 0.0;
     }
 
@@ -34,4 +34,10 @@ public class BusinessAccount implements BankInterface {
     public void checkBalance() {
         System.out.println("Current Balance: " + balance);
     }
+
+  @Override
+  public void allowBalnce(double amount) {
+    balance = balance + amount + 2.5;
+    System.out.println("Allowed balance is " + balance);
+  }
 }

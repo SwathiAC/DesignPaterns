@@ -1,4 +1,4 @@
-package com.example.factorydesignpatterns.Enum;
+package com.designpatterns.factorydesignpatterns.Enum;
 
 public enum AccountType {
 
